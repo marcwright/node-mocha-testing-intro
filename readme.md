@@ -1,12 +1,3 @@
----
-title: Testing Node with Mocha/Chai
-type: lesson
-duration: "1:15"
-creator:
-    name: Gerry Mathe/LON, Mike Hopper/ATL
-competencies: Testing
----
-
 # Testing Node with Mocha/Chai
 
 ### Objectives
@@ -88,11 +79,18 @@ _"Chai is a BDD / TDD assertion library for node and the browser that can be del
 
 To be able to make HTTP requests inside tests, we will use a framework called [Supertest](https://github.com/visionmedia/supertest).
 
+## Set-up our Cloud 9 Environment
+
+1. Log into your Cloud9 profile and select `Create a New Workspace`
+![alt text](./images/mocha-chai-intro-01.png)
+
+Reference-style: 
+
 ## Let's Test! Codealong (35 mins)
 
 #### Setting up the app
 
-Take the starter code provided - this is an app we've created when we talked about routing in Express. Be sure to `npm install`.
+Take the starter code provided - this is an app we've created when we talked about routing in Express. Be sure to `npm install` first.
 
 To test this app, we need to install a couple of dependencies.
 

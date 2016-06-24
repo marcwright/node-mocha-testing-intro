@@ -11,4 +11,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(require('./controllers'));
 
-app.listen(3000);
+app.listen(process.env.PORT, process.env.IP); //this is required for Cloud9

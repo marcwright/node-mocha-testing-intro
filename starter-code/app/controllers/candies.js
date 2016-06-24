@@ -1,15 +1,14 @@
-
 var express = require('express'),
     router = express.Router(),
     bodyParser = require('body-parser'), //parses information from POST
     methodOverride = require('method-override'); //used to manipulate POST
 
 
-candies = [
-{id: 1, name: "Chewing Gum" , color: "Red"},
-{id: 2, name: "Pez"         , color: "Green"},
-{id: 3, name: "Marshmallow" , color: "Pink"},
-{id: 4, name: "Candy Stick" , color: "Blue"}
+var candies = [
+  {id: 1, name: "Chewing Gum" , color: "Red"},
+  {id: 2, name: "Pez"         , color: "Green"},
+  {id: 3, name: "Marshmallow" , color: "Pink"},
+  {id: 4, name: "Candy Stick" , color: "Blue"}
 ]
 
 
@@ -52,7 +51,4 @@ router.put('/:id/edit', function(req, res) {
   });
 });
 
-
-
 module.exports = router
-
